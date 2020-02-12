@@ -1,17 +1,3 @@
-.homepage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 80px;
-}
-
-.directory-menu {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .menu-item {
   min-width: 30%;
   height: 240px;
@@ -19,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid black;
+  border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -51,8 +37,8 @@
   .background-image {
     width: 100%;
     height: 100%;
-    background-position: center;
     background-size: cover;
+    background-position: center;
   }
 
   .content {
@@ -66,17 +52,17 @@
     background-color: white;
     opacity: 0.7;
     position: absolute;
-  }
 
-  .title {
-    font-weight: bold;
-    margin-bottom: 6px;
-    font-size: 22px;
-    color: #4a4a4a;
-  }
+    .title {
+      font-weight: bold;
+      margin: 0 6px 0;
+      font-size: 22px;
+      color: #4a4a4a;
+    }
 
-  .subtitle {
-    font-weight: lighter;
-    font-size: 16px;
+    .subtitle {
+      font-weight: lighter;
+      font-size: 16px;
+    }
   }
 }
